@@ -7,9 +7,26 @@ header{
     justify-content: space-between;
     color: #fafafa;
     padding: 30px 80px;
+    position:relative;
 }
 button{
     outline: none;
+}
+.cart{
+    position: absolute;
+    background-color: pink;
+    width: 400px;
+    height: 300px;
+    left: 75%;
+    top: 100px;
+}
+.delete-btn {
+    background-image: url(../img/cross.svg);
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 13px;
+    border: none;
+    background-position: center;
 }
 .logo{
 
